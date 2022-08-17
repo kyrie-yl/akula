@@ -138,6 +138,9 @@ hashbrown = { version = "0.12.0", features = [
   "ahash-compile-time-rng",
 ] }
 dashmap = "5.3"
+tendermint = { git = "https://github.com/bnb-chain/tendermint.git" }
+parity-bytes = "0.1"
+lazy_static = "1.4.0"
 
 [target.'cfg(target_os = "linux")'.dependencies]
 e2p-fileflags = { git = "https://github.com/michaellass/e2p-fileflags" }
